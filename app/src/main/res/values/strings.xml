@@ -1,0 +1,41 @@
+<resources xmlns:href="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Amazing Wallpaper</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="privacy">Disclaimer</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_exit">Exit App</string>
+    <string name="menu_information">Information</string>
+    <string name="about">About</string>
+    <string name="menu_send">Send</string>
+    <string name="disclaimer">This application is made by Avenger fans, and it is unofficial. The content in this app is not affiliated with,endorsed,sponsored, or specifically approved by any company. This is app mainly for entertainment and for all fans to enjoy these Avenger Wallpapers. If we have violated any copyright by use of any images included in this app, please get in touch with us at mistersumandey@gmail.com and we shall promptly remove it.\n\nThank You!</string>
+
+    <string name="nav_heading">Amazing Wallpaper </string>
+    <string name="first">Suman Dey.</string>
+    <string name="copy">Powered by Amazing Superhero Wallpaper since 2019</string>
+    <string name="mail">mistersumandey@gmail.com</string>
+    <string name="secure"><a href="https://sites.google.com/view/amazingwallpaperhd/home">Privacy Policy</a></string>
+
+    <string name="app_id">ca-app-pub-5706054370744127~1065065540</string>
+
+   <string  name="banner_id">ca-app-pub-5706054370744127/4318550275</string>
+    <string name="marvel_interstitial">ca-app-pub-5706054370744127/1572859638</string>
+    <string name="todo1">TODO</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="todo4">TODO</string>
+    <string name="amazing_superheroes4">Amazing Wallpaper HD</string>
+    <string name="amazing_superheroes">Amazing Wallpaper HD</string>
+    <string name="todo">TODO</string>
+    <string name="disclaimer2">Disclaimer</string>
+</resources>

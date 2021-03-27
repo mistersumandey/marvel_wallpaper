@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.marvel.marvel"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 26
+        versionName "26.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7'
+    implementation 'com.android.support:design'
+
+    implementation 'com.android.support.constraint:constraint-layout'
+
+    //Firebase database
+    implementation 'com.google.firebase:firebase-database:18.0.1'
+    //RecyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+
+    //Multidex
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //fab
+    implementation 'com.github.clans:fab:1.6.4'
+
+    //Permissions
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+    //Crop
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+
+    //Ads
+    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+    implementation 'com.android.support:multidex:1.0.3'
+
+
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.firebase:firebase-messaging:20.3.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}

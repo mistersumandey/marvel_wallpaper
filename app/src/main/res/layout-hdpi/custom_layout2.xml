@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="@string/app_name"
+        android:textColor="#1C2668"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:drawablePadding="6dp"
+        android:drawableLeft="@drawable/person"
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/first"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:typeface="sans"
+        android:layout_marginLeft="4dp"
+        android:drawableStart="@drawable/person"
+        android:layout_marginStart="4dp" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/mail"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="6dp"
+        android:padding="10dp"
+        android:text="@string/mail"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:typeface="sans" />
+    <TextView
+        android:drawablePadding="6dp"
+        android:drawableLeft="@drawable/copy"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:drawableStart="@drawable/copy"
+        android:layout_marginStart="4dp"
+        android:layout_gravity="start"
+        android:text="@string/copy"
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:typeface="sans"
+        />
+
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/secure"
+        android:drawableLeft="@drawable/secure"
+        android:drawablePadding="6dp"
+        android:padding="10dp"
+        android:text="@string/secure"
+        android:textColor="#000000"
+        android:textColorLink="#43A047"
+        android:textSize="18sp"
+        android:typeface="sans" />
+
+</LinearLayout>

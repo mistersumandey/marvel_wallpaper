@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#10134C</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#1A237E</color>
+    <color name="round_selection">#ece0fd</color>
+    <color name="text_color">#10134C</color>
+    <color name="heading">#e4e4e4</color>
+    <color name="colorBackround">#000000</color>
+</resources>
+
